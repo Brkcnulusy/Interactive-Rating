@@ -38,7 +38,7 @@ html {
         .voting-state {
             width: 100%;
             height: 100%;
-            display: none;
+            display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
@@ -78,7 +78,7 @@ html {
                 justify-content: space-between;
                 align-items: center;
 
-                span {
+                button {
                     width: 40px;
                     height: 40px;
                     background-color: var(--Dark-Blue);
@@ -127,7 +127,7 @@ html {
             width: 100%;
             height: 100%;
             padding: 30px 0;
-            display: flex;
+            display: none;
             flex-direction: column;
             gap: 30px;
 
@@ -139,7 +139,7 @@ html {
                 align-items: center;
             }
 
-            .choese-message {
+            .choose-message {
                 width: 100%;
                 height: fit-content;
                 display: flex;

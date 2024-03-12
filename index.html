@@ -17,7 +17,7 @@
 
   <div class="container">
     <main>
-      <div class="voting-state">
+      <div class="voting-state js-voting-state">
         <div class="icon-wrapper">
           <img src="./assets/images/icon-star.svg" alt="star">
         </div>
@@ -31,22 +31,22 @@
           </p>
         </div>
         <div class="rate-wrapper">
-          <span class="active" value="1">1</span>
-          <span value="2">2</span>
-          <span value="3">3</span>
-          <span value="4">4</span>
-          <span value="5">5</span>
+          <button class="js-item" value="1">1</button>
+          <button class="js-item" value="2">2</button>
+          <button class="js-item" value="3">3</button>
+          <button class="js-item" value="4">4</button>
+          <button class="js-item" value="5">5</button>
         </div>
         <div class="submit-button">
-          <button>SUBMIT</button>
+          <button class="js-submit-button">SUBMIT</button>
         </div>
       </div>
-      <div class="thank-you-state">
+      <div class="thank-you-state js-thank-you-state">
         <div class="image-wrapper">
           <img src="./assets/images/illustration-thank-you.svg" alt="Thanks">
         </div>
-        <div class="choese-message">
-          <p>You selected x out of 5</p>
+        <div class="choose-message">
+          <p class="js-choose-message">You selected x out of 5</p>
         </div>
         <div class="title">
           <h2>Thank you!</h2>
